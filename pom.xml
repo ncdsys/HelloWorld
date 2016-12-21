@@ -19,7 +19,6 @@
     <connection>scm:git:git@github.com:ncdsys/HelloWorld.git</connection>
     <developerConnection>scm:git:git@github.com:ncdsys/HelloWorld.git</developerConnection>
     <url>https://github.com/ncdsys/HelloWorld.git</url>
-	<tag>HEAD</tag>
   </scm>
   <distributionManagement>
    <repository>
