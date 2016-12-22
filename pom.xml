@@ -15,6 +15,22 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <scm>
+    <connection>scm:git:git@github.com:ncdsys/HelloWorld.git</connection>
+    <developerConnection>scm:git:git@github.com:ncdsys/HelloWorld.git</developerConnection>
+    <url>https://github.com/ncdsys/HelloWorld.git</url>
+  </scm>
+  <distributionManagement>
+   <repository>
+        <id>releases</id>
+        <url>http://192.168.11.229:8081/nexus/content/repositories/releases</url>
+    </repository> 
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Internal Snapshots</name>
+        <url>http://192.168.11.229:8081/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>     
   <build>
     <finalName>HelloWorld</finalName>
   </build>
