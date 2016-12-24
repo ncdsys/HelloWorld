@@ -4,7 +4,7 @@
   <groupId>com.ncodeit</groupId>
   <artifactId>HelloWorld</artifactId>
   <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.4-SNAPSHOT</version>
   <name>HelloWorld Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -23,12 +23,12 @@
   <distributionManagement>
    <repository>
         <id>releases</id>
-        <url>http://192.168.11.229:8081/nexus/content/repositories/releases</url>
+        <url>http://192.168.12.18:8081/nexus/content/repositories/releases</url>
     </repository> 
     <snapshotRepository>
         <id>snapshots</id>
         <name>Internal Snapshots</name>
-        <url>http://192.168.11.229:8081/nexus/content/repositories/snapshots</url>
+        <url>http://192.168.12.18:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>   
   <build>
