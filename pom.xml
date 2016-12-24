@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+>>>>>>> 305d927a03c49ac09de5c28c7db80f3f0f7feba9
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ncodeit</groupId>
   <artifactId>HelloWorld</artifactId>
@@ -19,18 +23,32 @@
     <connection>scm:git:git@github.com:ncdsys/HelloWorld.git</connection>
     <developerConnection>scm:git:git@github.com:ncdsys/HelloWorld.git</developerConnection>
     <url>https://github.com/ncdsys/HelloWorld.git</url>
+<<<<<<< HEAD
+=======
+    <tag>HEAD</tag>
+>>>>>>> 305d927a03c49ac09de5c28c7db80f3f0f7feba9
   </scm>
   <distributionManagement>
    <repository>
         <id>releases</id>
+<<<<<<< HEAD
         <url>http://192.168.12.18:8081/nexus/content/repositories/releases</url>
+=======
+        <url>http://192.168.11.229:8081/nexus/content/repositories/releases</url>
+>>>>>>> 305d927a03c49ac09de5c28c7db80f3f0f7feba9
     </repository> 
     <snapshotRepository>
         <id>snapshots</id>
         <name>Internal Snapshots</name>
+<<<<<<< HEAD
         <url>http://192.168.12.18:8081/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>   
+=======
+        <url>http://192.168.11.229:8081/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>     
+>>>>>>> 305d927a03c49ac09de5c28c7db80f3f0f7feba9
   <build>
     <finalName>HelloWorld</finalName>
   </build>
