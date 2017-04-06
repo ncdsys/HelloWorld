@@ -3,7 +3,7 @@
   <groupId>com.ncodeit</groupId>
   <artifactId>HelloWorld</artifactId>
   <packaging>war</packaging>
-  <version>1.5-SNAPSHOT</version>
+  <version>1.5</version>
   <name>HelloWorld Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -18,7 +18,7 @@
     <connection>scm:git:git@github.com:ncdsys/HelloWorld.git</connection>
     <developerConnection>scm:git:git@github.com:ncdsys/HelloWorld.git</developerConnection>
     <url>https://github.com/ncdsys/HelloWorld.git</url>
-    <tag>HEAD</tag>
+    <tag>HelloWorld-1.5</tag>
   </scm>
   <distributionManagement>
    <repository>
